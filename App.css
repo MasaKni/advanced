@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.content{
+    margin-top: 20px;
+
+}
+.profile{
+    margin-top: 100px;
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    height: 250px ;
+    
+    row-gap: 35px;
+    
+}
+.photo1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid rgba(173, 173, 173, 0.781);
+    display: inline-block;
+   
+}
+.data1{
+    
+    margin-top: 50px;
+    line-height: 40px;
+    text-align: left;
+    width: 180px;
+    
+
+    
+}
+.navigationBar{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(56, 144, 167);
+
+}
+.link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.876);
+    
+}
+ul div {
+    
+    font-size: 18px;
+    padding-top: 1.35rem;
+    list-style-type: none;
+    text-align: center;
+   /* border: 1px solid black;*/
+    width: 90px;
+    display: inline-block;
+    margin-right: 15px;
+    height: 50.5px;
+}
+ul div:hover{
+    background-color:rgba(148, 207, 241, 0.328);
+}
+
+ul {
+    margin-left: 300px;
+}
+
+.details{
+    margin-top: 90px;
+    /*margin-left: 70%;*/
+    display: inline-block;
+    width: 400px;
+    height: 720px;
+    border: 1px solid rgba(173, 173, 173, 0.781);
+    border-radius: 10px;
+    border-style: ridge;
+}
+.components{
+    display: flex;
+    gap: 5%;
+    flex-grow: 2;
+
+}
+.head{
+    margin-top: 25px;
+    color: rgba(173, 173, 173, 0.781);
+}
+.heading{
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.info{
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 35px;
+    line-height: 70px;
+}
+ul span{
+    margin-left: -250px;
+    padding-right: 120px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    
+}
+.skills{
+    border-radius: 10px;
+    border: 1px solid rgba(173, 173, 173, 0.781);
+    width: 280px;
+    border-style: ridge;
+}
+.AllSkills{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-auto-flow:row;
+}

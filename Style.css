@@ -1,0 +1,16 @@
+.mainDiv {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  color: crimson;
+}
+
+.chart {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+  width: 50%;
+  height: 500px;
+
+}
