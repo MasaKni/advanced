@@ -108,9 +108,9 @@ ul span{
 }
 .skills{
     border-radius: 10px;
-    border: 1px solid rgba(173, 173, 173, 0.781);
     width: 280px;
     border-style: ridge;
+    border: 1px solid rgba(173, 173, 173, 0.781);
 }
 .AllSkills{
     margin-left: 100px;
@@ -120,4 +120,99 @@ ul span{
     column-gap: 20px;
     row-gap: 20px;
     grid-auto-flow:row;
+}
+.contents{
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+    padding: 50px;
+    padding-top: 0;
+
+}
+.visuals{
+    width: 400px;
+    height: 800px;
+    /*border-style: ridge;
+    border: 1px solid rgba(0, 0, 0, 0.832); */
+    border-radius: 10px;
+    display: inline-block;
+}
+.creation{
+    width: 800px;
+    height: 800px;
+    border-style: ridge;
+    border: 1px solid rgba(194, 189, 189, 0.774);
+    border-radius: 10px;
+    
+}
+.allPlayers{
+    /*border: 1px black solid;*/
+    border-collapse: collapse;
+    width: 800px;
+    
+}
+.allPlayers tr{
+    height: 80px;
+    border-radius: 10px;
+
+}
+.allPlayers td{
+    width: 200px;
+    
+}
+.allPlayers tr:nth-of-type(2n+1){
+    background-color: rgba(148, 207, 241, 0.323);
+    
+}
+.firstRow{
+    border-radius: inherit;
+}
+.filters tr{
+    height: 60px;
+}
+.filters td{
+    width: 200px;
+    padding-left: 10px;
+}
+input[type="radio" ]{
+    margin-left: 13px;
+    margin-right: 15px;
+}
+.height{
+    width: 80px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 3px;
+    padding-left: 3px;
+    font-size: 15px;
+}
+.Search{
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    background-color: rgba(148, 207, 241, 0.599);
+    border-radius: 4px;
+}
+select{
+    width: 200px;
+    height: 30px;
+
+}
+.name{
+    width: 200px;
+    height: 30px;
+}
+.number{
+    border: 1px solid black;
+    padding: 15px;
+}
+.numbers{
+    margin-left: 800px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 10px;
+}
+.number:hover{
+    background-color:rgba(148, 207, 241, 0.328);
+    cursor: pointer;
 }
